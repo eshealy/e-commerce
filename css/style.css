@@ -1,0 +1,353 @@
+@charset "UTF-8";
+* {
+    font-family: "IBM-Plex-Sans";
+}
+body {
+    margin: 0 auto;
+}
+header {
+    background-color: rgba(0, 0, 0, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    display: flex;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.32px;
+    position: relative;
+    height: 100px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.logo {
+    font-family: "Degular-Text";
+    font-weight: 700;
+    font-size: 29pt;
+    text-transform: none;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    left: 30px;
+    padding-bottom: 9px;
+}
+.logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav {
+    display: flex;
+    position: relative;
+    left: 73px;
+}
+nav a {
+    margin-right: 35px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1.00);
+    font-weight: 400;
+    font-size: 12pt;
+}
+header button {
+    position: relative;
+    float: right;
+    background-color: rgba(255, 255, 255, 1.00);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: rgba(0, 0, 0, 1.00);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 800;
+    font-size: 15pt;
+    margin-top: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    left: 400px;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+header button:hover {
+    transform: scale(1.05);
+}
+.masthead h1 {
+    font-family: "Degular-Text";
+    font-weight: 900;
+    font-size: 50pt;
+    display: flex;
+    width: 80%;
+}
+.masthead button {
+    outline: none;
+    border: none;
+    position: relative;
+    display: flex;
+    font-size: 16pt;
+    background-color: rgba(175, 27, 63, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 39px rgba(175, 27, 63, 0.47);
+    box-shadow: 0px 1px 39px rgba(175, 27, 63, 0.47);
+    transition-duration: 300ms;
+}
+.masthead button:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 1px 39px rgba(175, 27, 63, 0.67);
+    box-shadow: 0px 1px 39px rgba(175, 27, 63, 0.67);
+}
+.masthead {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-left: 130px;
+    margin-bottom: 70px;
+}
+.masthead img {
+    width: 400pt;
+}
+.masthead-left {
+    margin-right: 40px;
+    margin-left: 15px;
+    padding-top: 50px;
+}
+.masthead-right {
+    margin-left: 58px;
+}
+.why {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.why h2 {
+    font-size: 20pt;
+}
+.why .reasons {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 40px;
+}
+.reason-1, .reason-2, .reason-3, .reason-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.how {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.how h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20pt;
+}
+.ways {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.plans {
+    margin-left: 180px;
+}
+.plans img {
+    width: 1100px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+.plans h2 {
+    position: relative;
+    z-index: 2;
+    left: 330px;
+    bottom: 400px;
+    color: rgba(255, 255, 255, 1.00);
+    width: 680px;
+    font-size: 20pt;
+}
+.plans button {
+    position: relative;
+    left: 450px;
+    z-index: 2;
+    bottom: 385px;
+    color: rgba(111, 134, 149, 1.00);
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 1.00);
+    font-weight: 600;
+    font-size: 16pt;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 4px 23px -3px rgba(242, 250, 255, .5);
+    box-shadow: 0px 4px 23px -3px rgba(242, 250, 255, .5);
+    transition-duration: 300ms;
+}
+.plans button:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 1px 39px rgba(242, 250, 255, 0.6);
+    box-shadow: 0px 1px 39px rgba(242, 250, 255, 0.60);
+}
+.common-questions {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+.common-questions h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.common-questions button {
+    outline: none;
+    border: none;
+    background-color: #AF1B3F;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    -webkit-box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.31);
+    position: relative;
+    cursor: pointer;
+}
+.accordion__label button p {
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 45px;
+}
+.accordion {
+    max-width: 900px;
+}
+.accordion label {
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1.00);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.accordion__label button {
+    transition: display 400ms;
+}
+.accordion-answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 1.00);
+    -webkit-box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.16);
+    border-radius: 0px 0px 10px 10px;
+    ;
+    z-index: -1;
+    width: 85%;
+    left: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: -40px;
+    transition: max-height 400ms ease;
+}
+.accordion-answer p {
+    padding: 10px 40px 40px 40px;
+}
+.accordion__input {
+    display: none;
+}
+.accordion .remove {
+    display: none;
+}
+/*When the input is checked, it triggers the answer div to show up.*/
+.accordion__input:checked ~ .accordion-answer {
+    max-height: 200px;
+}
+.accordion__input:checked ~ .accordion__label .add {
+    display: none;
+}
+.accordion__input:checked ~ .accordion__label .remove {
+    display: block;
+}
+footer {
+    background-color: #000000;
+    height: 240px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    font-family: "Degular Text";
+    color: rgba(255, 255, 255, 1.00);
+    padding-right: 55px;
+}
+.footer-1 a, .footer-2 a {
+    color: rgba(255, 255, 255, 1.00);
+    text-decoration: none;
+}
+.above-line {
+    display: flex;
+}
+.footer-1 {
+    width: 70px;
+    line-height: 34px;
+    position: relative;
+    left: 75px;
+    top: 35px;
+}
+.footer-2 {
+    width: 70px;
+    line-height: 34px;
+    position: relative;
+    left: 240px;
+    top: 35px;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 700px;
+    top: 35px;
+    font-weight: 600;
+}
+.app-logos {
+    margin-top: 15px;
+}
+hr {
+    margin-top: 50px;
+}
+.below-line {
+    width: 90%;
+    position: relative;
+    left: 75px;
+    top: 13px;
+}
+.below-line a {
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 5px;
+}

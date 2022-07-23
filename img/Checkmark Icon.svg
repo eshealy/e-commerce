@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129" height="129" viewBox="0 0 129 129">
+  <defs>
+    <filter id="Path_49" x="0" y="0" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#f45d01" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Checkmark_Icon" data-name="Checkmark Icon" transform="translate(-499.5 -954.5)">
+    <g transform="matrix(1, 0, 0, 1, 499.5, 954.5)" filter="url(#Path_49)">
+      <path id="Path_49-2" data-name="Path 49" d="M42,0A42,42,0,1,1,0,42,42,42,0,0,1,42,0Z" transform="translate(22.5 22.5)" fill="#ff4e00"/>
+    </g>
+    <path id="Path_8" data-name="Path 8" d="M541.436,998.9l6.809-9.032,11.422,10.313,17.714-25.032,11.228,8.316-28.474,26.27Z" transform="translate(0 26)" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129" height="129" viewBox="0 0 129 129">
+  <defs>
+    <filter id="Ellipse_7" x="0" y="0" width="129" height="129" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#f45d01" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Watering_Can_Icon" data-name="Watering Can Icon" transform="translate(-978.5 -954.5)">
+    <g transform="matrix(1, 0, 0, 1, 978.5, 954.5)" filter="url(#Ellipse_7)">
+      <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="42" cy="42" r="42" transform="translate(22.5 22.5)" fill="#ff4e00"/>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(514.416 -326.564) rotate(25)">
+      <path id="Path_6" data-name="Path 6" d="M1748.948,1148.375s-11.461-22.831-6.165-28.586,12.435-2.6,14.2,2.883,1.259,14.19,1.259,14.19Z" transform="translate(-716.481 -138.669)" fill="none" stroke="#fff" stroke-width="3"/>
+      <path id="Path_7" data-name="Path 7" d="M2179.235,1436.339h4.9L2192.9,1422h3.784" transform="translate(-1125.569 -427.833)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <g id="Path_9" data-name="Path 9" transform="translate(1029.958 989.165)" fill="#fff">
+        <path d="M 25.70081520080566 23.76727676391602 L 0.542695164680481 23.76727676391602 L 1.528355956077576 11.75163745880127 L 1.53182590007782 11.70927715301514 L 1.528105974197388 11.66694736480713 L 0.545907199382782 0.4999974370002747 L 25.69826889038086 0.4999974370002747 L 24.90749549865723 11.6754674911499 L 24.90507507324219 11.70956707000732 L 24.90733528137207 11.74368762969971 L 25.70081520080566 23.76727676391602 Z" stroke="none"/>
+        <path d="M 1.091808319091797 0.9999980926513672 L 2.033626556396484 11.70780754089355 L 1.085384368896484 23.26727676391602 L 25.16672706604004 23.26727676391602 L 24.40391540527344 11.70837783813477 L 25.1616325378418 0.9999980926513672 L 1.091808319091797 0.9999980926513672 M -3.814697265625e-06 -1.9073486328125e-06 L 26.23489570617676 -1.9073486328125e-06 L 25.40624618530273 11.7107572555542 L 26.23489570617676 24.26727676391602 L -3.814697265625e-06 24.26727676391602 L 1.030025482177734 11.7107572555542 L -3.814697265625e-06 -1.9073486328125e-06 Z" stroke="none" fill="#fff"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" y1="6" transform="translate(1071.118 991.166)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
